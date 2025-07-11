@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+  <div class="max-w-6xl mx-auto flex justify-end py-4 px-6 bg-white rounded-t-lg shadow mt-6">
+    <!-- Right: User Info -->
+    <div class="flex items-center gap-3 cursor-pointer">
+      <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-blue-700" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/>
+        </svg>
+      </div>
+      <div class="text-right">
+        <p class="font-semibold text-gray-800 leading-tight">Shubham Sachdeva</p>
+        <p class="text-sm text-gray-500 leading-tight">Sales representative</p>
+      </div>
+      <!-- Dropdown Arrow -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+      </svg>
+    </div>
+  </div>
+
+  <!-- Main Section -->
+  <div class="bg-gradient-to-r from-blue-900 to-blue-600 p-6 rounded-xl text-white max-w-7xl mx-auto mt-8 shadow-lg">
+    <div class="flex justify-between items-center">
+      <div class="text-lg font-medium">WELCOME SHUBHAM 👋</div>
+      <div class="relative w-full sm:w-1/2 lg:w-1/3">
+        <!-- Search Icon -->
+        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+          <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z"/>
+          </svg>
+        </div>
+      
+        <!-- Input -->
+        <input
+          type="text"
+          placeholder="Search for a product"
+          class="pl-10 pr-4 py-2 rounded-lg w-full text-black border border-gray-300 focus:ring focus:ring-blue-200 focus:outline-none"
+        />
+      </div>
+      
+    </div>
+
+    <h2 class="text-2xl font-semibold mt-6">Select a product to <span class="text-orange-400">Generate the Quote</span></h2>
+
+    <div class="bg-white text-black mt-6 p-6 rounded-xl">
+        <div class="flex flex-col lg:flex-row gap-6">
+          
+          <!-- Left: Product Selection -->
+          <div class="lg:w-1/2 w-full">
+            <!-- Product Tabs -->
+            <!-- Browse Product Header -->
+<div class="flex items-center gap-2 mb-3">
+  <!-- Icon -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-700" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 14.5h-2v-2h2v2zm0-4h-2V7h2v5.5z"/>
+  </svg>
+  <h2 class="font-semibold text-blue-900">Browse product</h2>
+</div>
+
+<!-- Product Buttons -->
+<div class="flex flex-wrap gap-3 mb-4">
+  <!-- Term (Active) -->
+  <button class="min-w-[200px] bg-gradient-to-r from-blue-600 to-blue-400 text-white border border-blue-500 px-6 py-2 rounded-lg flex items-center gap-2 shadow-sm">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2l4-4m1-5l-7 3l-7-3v5a12 12 0 0014 11.25A12 12 0 0021 7V2l-7 3z"/>
+    </svg>
+    Term
+  </button>
+
+  <!-- PAR -->
+  <button class="min-w-[200px] bg-white text-blue-700 border border-blue-500 px-6 py-2 rounded-lg flex items-center gap-2 shadow-sm">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318A4.5 4.5 0 0112 8.828a4.5 4.5 0 017.682-2.51A4.5 4.5 0 0112 21.001L4.318 13.5a4.5 4.5 0 010-6.364z" />
+    </svg>
+    PAR
+  </button>
+
+  <!-- ULIP -->
+  <button class="min-w-[150px] bg-white text-blue-700 border border-blue-500 px-6 py-2 rounded-lg flex items-center gap-2 shadow-sm">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 12v1m0 0h.01M12 13h-.01M4 6h16M3 10h18M8 6v-2a2 2 0 012-2h4a2 2 0 012 2v2" />
+    </svg>
+    ULIP
+  </button>
+
+  <!-- Annuity -->
+  <button class="min-w-[150px] bg-white text-blue-700 border border-blue-500 px-6 py-2 rounded-lg flex items-center gap-2 shadow-sm">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M5 20h14M6 10v10M10 10v10M14 10v10M18 10v10M12 2L2 7h20L12 2z"/>
+    </svg>
+    Annuity
+  </button>
+
+  <!-- Non Par -->
+  <button class="min-w-[150px] bg-white text-blue-700 border border-blue-500 px-6 py-2 rounded-lg flex items-center gap-2 shadow-sm">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-4 4h8a2 2 0 002-2v-5a2 2 0 00-2-2H8a2 2 0 00-2 2v5a2 2 0 002 2zM12 9a4 4 0 00-4 4v1h8v-1a4 4 0 00-4-4z" />
+    </svg>
+    Non Par
+  </button>
+</div>
+   
+            <!-- Product Dropdown -->
+            <select class="w-full border rounded-md p-2 mb-4">
+              <option>Choose product</option>
+            </select>
+      
+            <!-- Continue Button -->
+            <button class="bg-blue-700 text-white w-full lg:w-1/2 py-2 rounded-md">Continue</button>
+          </div>
+      
+          <!-- Right: Recently Pitched + Smart Suggest -->
+          <div class="lg:w-3/5 w-full bg-blue-50 rounded-xl p-4">
+            <h2 class="flex items-center gap-2 font-semibold text-blue-800">
+              <!-- Sparkle Icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 3v2m0 14v2m9-9h-2M5 12H3m15.364-6.364l-1.414 1.414M6.05 17.95l-1.414 1.414m12.728 0l1.414-1.414M6.05 6.05L4.636 7.464M12 8a4 4 0 100 8 4 4 0 000-8z"/>
+              </svg>
+              Your recently pitched products
+            </h2>
+
+           <!-- Recently Pitched -->
+<div class="flex gap-4 overflow-x-auto">
+  <div class="bg-white border border-blue-500 p-4 rounded-lg min-w-[200px]">
+    <div class="font-bold text-blue-500">eTouch</div>
+    <div class="text-sm text-gray-600 bg-blue-100 px-2 py-0.5 rounded inline-block w-fit">Term</div>
+    <button class="text-blue-600 border mt-2 px-3 py-1 rounded-md text-sm">Generate Quote</button>
+  </div>
+  <div class="bg-white border border-blue-500 p-4 rounded-lg min-w-[200px]">
+    <div class="font-bold text-blue-500">ACE</div>
+    <div class="text-sm text-gray-600 bg-blue-100 px-2 py-0.5 rounded inline-block w-fit">PAR</div>
+    <button class="text-blue-600 border mt-2 px-3 py-1 rounded-md text-sm">Generate Quote</button>
+  </div>
+  <div class="bg-white border border-blue-500 p-4 rounded-lg min-w-[200px]">
+    <div class="font-bold text-blue-500">Smart Wealth Goal</div>
+    <div class="text-sm text-gray-600 bg-blue-100 px-2 py-0.5 rounded inline-block w-fit">Non PAR</div>
+    <button class="text-blue-600 border mt-2 px-3 py-1 rounded-md text-sm">Generate Quote</button>
+  </div>
+</div>
+      
+           
+            <!-- Smart Suggest -->
+<div class="mt-6 bg-orange-400 text-white p-4 rounded-lg flex justify-between items-center">
+  <div class="flex flex-col">
+    <span class="font-semibold">Smart Suggest</span>
+    <span class="text-sm">Get recommendations basis on your customer profile</span>
+  </div>
+  
+  <!-- Icon: Arrow Top Right -->
+  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 3h7m0 0v7m0-7L10 14" />
+  </svg>
+</div>
+          </div>
+      
+        </div>
+      </div>
+      </div>
+
+ <!-- Recent Quotes -->
+<div class="bg-white max-w-7xl mx-auto mt-6 p-6 rounded-xl shadow-md">
+  <div class="flex justify-between items-center mb-4">
+    <h3 class="text-lg font-semibold">Recent Quotes</h3>
+    <a href="#" class="text-blue-600 text-sm">View All</a>
+  </div>
+
+  <div class="flex gap-4 overflow-x-auto">
+    <!-- Quote Card 1 -->
+    <div class="relative bg-white border border-blue-200 rounded-xl p-4 min-w-[200px] shadow-sm">
+      <div class="flex items-center gap-3 mb-2">
+        <div class="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-orange-500" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+          </svg>
+        </div>
+        <div>
+          <div class="font-semibold text-sm">Vidisha A.</div>
+          <div class="text-xs text-gray-500">9971646618</div>
+        </div>
+      </div>
+      <div class="flex items-center justify-between">
+        <button class="text-blue-600 text-xs font-semibold border border-blue-300 px-2 py-1 rounded-md bg-blue-50">3 QUOTES</button>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </div>
+    </div>
+  
+    <!-- Quote Card 2 (Duplicate) -->
+    <div class="relative bg-white border border-blue-200 rounded-xl p-4 min-w-[200px] shadow-sm">
+      <div class="flex items-center gap-3 mb-2">
+        <div class="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-orange-500" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+          </svg>
+        </div>
+        <div>
+          <div class="font-semibold text-sm">Vidisha A.</div>
+          <div class="text-xs text-gray-500">9971646618</div>
+        </div>
+      </div>
+      <div class="flex items-center justify-between">
+        <button class="text-blue-600 text-xs font-semibold border border-blue-300 px-2 py-1 rounded-md bg-blue-50">3 QUOTES</button>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </div>
+    </div>
+  
+    <!-- Quote Card 3 (Duplicate) -->
+    <div class="relative bg-white border border-blue-200 rounded-xl p-4 min-w-[200px] shadow-sm">
+      <div class="flex items-center gap-3 mb-2">
+        <div class="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-orange-500" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+          </svg>
+        </div>
+        <div>
+          <div class="font-semibold text-sm">Vidisha A.</div>
+          <div class="text-xs text-gray-500">9971646618</div>
+        </div>
+      </div>
+      <div class="flex items-center justify-between">
+        <button class="text-blue-600 text-xs font-semibold border border-blue-300 px-2 py-1 rounded-md bg-blue-50">3 QUOTES</button>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </div>
+    </div>
+  
+    <!-- Quote Card 4 (Duplicate) -->
+    <div class="relative bg-white border border-blue-200 rounded-xl p-4 min-w-[200px] shadow-sm">
+      <div class="flex items-center gap-3 mb-2">
+        <div class="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-orange-500" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+          </svg>
+        </div>
+        <div>
+          <div class="font-semibold text-sm">Vidisha A.</div>
+          <div class="text-xs text-gray-500">9971646618</div>
+        </div>
+      </div>
+      <div class="flex items-center justify-between">
+        <button class="text-blue-600 text-xs font-semibold border border-blue-300 px-2 py-1 rounded-md bg-blue-50">3 QUOTES</button>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </div>
+    </div>
+    <div class="relative bg-white border border-blue-200 rounded-xl p-4 min-w-[200px] shadow-sm">
+      <div class="flex items-center gap-3 mb-2">
+        <div class="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-orange-500" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+          </svg>
+        </div>
+        <div>
+          <div class="font-semibold text-sm">Vidisha A.</div>
+          <div class="text-xs text-gray-500">9971646618</div>
+        </div>
+      </div>
+      <div class="flex items-center justify-between">
+        <button class="text-blue-600 text-xs font-semibold border border-blue-300 px-2 py-1 rounded-md bg-blue-50">3 QUOTES</button>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </div>
+    </div>
+    <div class="relative bg-white border border-blue-200 rounded-xl p-4 min-w-[200px] shadow-sm">
+      <div class="flex items-center gap-3 mb-2">
+        <div class="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-orange-500" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+          </svg>
+        </div>
+        <div>
+          <div class="font-semibold text-sm">Vidisha A.</div>
+          <div class="text-xs text-gray-500">9971646618</div>
+        </div>
+      </div>
+      <div class="flex items-center justify-between">
+        <button class="text-blue-600 text-xs font-semibold border border-blue-300 px-2 py-1 rounded-md bg-blue-50">3 QUOTES</button>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- Info Corner -->
+<div class="bg-white max-w-7xl mx-auto mt-6 p-6 rounded-xl shadow-md">
+  <h3 class="text-lg font-semibold mb-4">Info Corner</h3>
+  <div class="grid md:grid-cols-2 gap-4">
+    
+    <!-- Products Info -->
+    <div class="flex items-center justify-between border rounded-xl p-4 shadow-sm">
+      <div class="flex items-center gap-3">
+        <!-- Icon -->
+        <div class="text-orange-500">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 4H7a2 2 0 01-2-2V5a2 2 0 012-2h6l5 5v12a2 2 0 01-2 2z" />
+          </svg>
+        </div>
+        <div>
+          <div class="font-semibold text-sm text-gray-800">Products Info</div>
+          <div class="text-xs text-gray-500">Get recommendations basis on your customer profile</div>
+        </div>
+      </div>
+      <!-- Arrow Icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+      </svg>
+    </div>
+
+    <!-- Fund Reports -->
+    <div class="flex items-center justify-between border rounded-xl p-4 shadow-sm">
+      <div class="flex items-center gap-3">
+        <!-- Icon -->
+        <div class="text-orange-500">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3v18h18M9 17V9m4 8v-4m4 4V5" />
+          </svg>
+        </div>
+        <div>
+          <div class="font-semibold text-sm text-gray-800">Fund Reports</div>
+          <div class="text-xs text-gray-500">Get recommendations basis on your customer profile</div>
+        </div>
+      </div>
+      <!-- Arrow Icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+      </svg>
+    </div>
+
+  </div>
+</div>
+
+
+</body>
+</html>
